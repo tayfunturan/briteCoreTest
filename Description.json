@@ -1,0 +1,28 @@
+{
+  "name": "BriteCoreTest",
+  "version": "1.0.0",
+  "description": "For FrontEnd Engineering Position",
+  "main": "app.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:e2e": "vue-cli-service test:e2e",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "author": "Tayfun TURAN",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.5.21",
+    "grunt": "^1.0.3",
+    "grunt-sass": "^3.0.2",
+    "node-sass": "^4.11.0"
+  },
+  "devDependencies": {
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^4.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-node-sass": "^1.0.1"
+  }
+}
